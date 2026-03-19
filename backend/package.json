@@ -1,0 +1,34 @@
+{
+  "name": "resume-generator-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend for Resume Generator project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "resume",
+    "generator",
+    "backend",
+    "express",
+    "mongodb"
+  ],
+  "author": "Reshma Govindaraj",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bottleneck": "^2.19.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.3",
+    "mongoose": "^7.5.0",
+    "openai": "^6.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
